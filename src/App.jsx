@@ -1,11 +1,14 @@
-import { useState } from "react";
+import ErrorPolicy from "./pages/errorPolicty";
+import Home from "./pages/home";
 
 function App() {
+ 
+
   return (
     <>
-      <h1>Hello Ashish</h1>
+      <Home/>
     </>
-  );
+  )
 }
 
 export default App;
